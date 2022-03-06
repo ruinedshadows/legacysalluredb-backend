@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     CORS_ORIGINS = [
         "http://localhost",
         "http://localhost:3000",
+        "https://api.legacysalluredb.com",
+        "https://legacysalluredb.com",
     ]
 
 settings: Settings = Settings()
